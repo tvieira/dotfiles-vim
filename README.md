@@ -21,3 +21,8 @@ Add the line below to your ```$HOME/.bashrc``` file.
 ```bash
 alias vime="vim -u ~/.vimencrypt -x"
 ```
+## Screenshot
+
+This is a screenshot of my vim as it is configured in this repository.
+
+[![screenshot](https://github.com/tvieira/dotfiles-vim/raw/master/screenshot.png)](#screenshot)
