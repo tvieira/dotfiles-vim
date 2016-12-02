@@ -1,0 +1,72 @@
+[submodule "bundle/csv"]
+	path = bundle/csv
+	url = https://github.com/chrisbra/csv.vim.git
+[submodule "bundle/ctrlp"]
+	path = bundle/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "bundle/dockerfile"]
+	path = bundle/dockerfile
+	url = https://github.com/ekalinin/Dockerfile.vim.git
+[submodule "bundle/editorconfig"]
+	path = bundle/editorconfig
+	url = https://github.com/editorconfig/editorconfig-vim.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "bundle/python-mode"]
+	path = bundle/python-mode
+	url = https://github.com/klen/python-mode.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/airline"]
+	path = bundle/airline
+	url = https://github.com/vim-airline/vim-airline.git
+[submodule "bundle/airline-themes"]
+	path = bundle/airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes.git
+[submodule "bundle/ansible-yaml"]
+	path = bundle/ansible-yaml
+	url = https://github.com/chase/vim-ansible-yaml.git
+[submodule "bundle/colors-solarized"]
+	path = bundle/colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "bundle/gitgutter"]
+	path = bundle/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
+[submodule "bundle/jinja"]
+	path = bundle/jinja
+	url = https://github.com/mitsuhiko/vim-jinja.git
+[submodule "bundle/jsbeautify"]
+	path = bundle/jsbeautify
+	url = https://github.com/maksimr/vim-jsbeautify.git
+[submodule "bundle/json"]
+	path = bundle/json
+	url = https://github.com/mitsuhiko/vim-json.git
+[submodule "bundle/markdown"]
+	path = bundle/markdown
+	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/nerdtree-tabs"]
+	path = bundle/nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "bundle/python-combined"]
+	path = bundle/python-combined
+	url = https://github.com/mitsuhiko/vim-python-combined.git
+[submodule "bundle/sensible"]
+	path = bundle/sensible
+	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/nginx"]
+	path = bundle/nginx
+	url = https://github.com/fatih/vim-nginx.git
+[submodule "bundle/python-pep8-indent"]
+	path = bundle/python-pep8-indent
+	url = https://github.com/hynek/vim-python-pep8-indent.git
+[submodule "bundle/better-whitespace"]
+	path = bundle/better-whitespace
+	url = https://github.com/ntpeters/vim-better-whitespace.git
+[submodule "bundle/endwise"]
+	path = bundle/endwise
+	url = https://github.com/tpope/vim-endwise.git
