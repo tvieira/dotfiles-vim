@@ -1,6 +1,8 @@
 # My vim configuration
 
-This is my vim configuration, part of my dotfiles.
+This is my vim configuration, part of my dotfiles. I use the font RobotoMono
+in my terminal patched for Powerline. You can get it from
+[powerline fonts](https://github.com/powerline/fonts).
 
 Run the following command via terminal to get it set up:
 
