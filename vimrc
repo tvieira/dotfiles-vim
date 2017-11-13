@@ -147,6 +147,10 @@ let NERDTreeShowHidden=1
 let NERDTreeMapOpenInTab='<ENTER>'
 let NERDTreeTabsToggle=1
 let g:NERDTreeWinSize = 28
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeQuitOnOpen = 1
 
 " function that helps trailing space on saving
 fun! TrimWhitespace()
