@@ -20,10 +20,10 @@ set nobackup
 set nowritebackup
 
 " set color scheme
-set term=xterm-256color
-set t_Co=256
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
+"set term=xterm-256color
+"set t_Co=256
+"let g:solarized_termcolors=256
+let g:solarized_visibility='high'
 set background=dark
 colorscheme solarized
 
@@ -41,7 +41,7 @@ set termencoding=utf-8
 set esckeys
 
 " mail line wrapping
-au BufRead /tmp/mutt-* set tw=72
+au BufRead /tmp/mutt-* set tw=78
 
 " allow backspace in insert mode
 set backspace=indent,eol,start
@@ -195,12 +195,14 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 " colorcolumns
-if version >= 703
-  autocmd FileType * setlocal colorcolumn=0
+"if version >= 703
+"  autocmd FileType * setlocal colorcolumn=0
   " autocmd FileType ruby,python,javascript,c,cpp,objc,rst
   "  \ let &colorcolumn="80,".join(range(84,300),",")
-  autocmd FileType ruby,python,javascript,c,cpp,objc,rst let &colorcolumn="79"
-endif
+"  autocmd FileType ruby,python,javascript,c,cpp,objc,rst let &colorcolumn="79"
+"endif
+set colorcolumn=110
+highlight ColorColumn ctermbg=Black
 
 
 " python support
@@ -227,7 +229,8 @@ let g:syntastic_python_checkers=['flake8', 'python']
 "   E124 closing bracket does not match visual indentation
 "   E126 continuation line over-indented for hanging indent
 "   E721 do not compare types, use 'isinstance()'
-let g:syntastic_python_flake8_args='--ignore=E121,E128,E711,E301,E261,E241,E124,E126,E721
+let g:syntastic_python_flake8_args='
+    \ --ignore=E121,E128,E711,E301,E261,E241,E124,E126,E721
     \ --max-line-length=79'
 
 " template language support (SGML / XML too)
